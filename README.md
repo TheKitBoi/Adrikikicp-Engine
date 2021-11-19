@@ -1,18 +1,29 @@
-# Friday Night Funkin
+# Friday Night Funkin, Adrikikicp Engine
 
-This is the repository for Friday Night Funkin, a game originally made for Ludum Dare 47 "Stuck In a Loop".
+This is the repository for Friday Night Funkin Adrikikicp Engine, a game engine originally copied from some Kade Engine 1.4.2 things.
 
 Play the Ludum Dare prototype here: https://ninja-muffin24.itch.io/friday-night-funkin
 Play the Newgrounds one here: https://www.newgrounds.com/portal/view/770371
 Support the project on the itch.io page: https://ninja-muffin24.itch.io/funkin
 
-IF YOU MAKE A MOD AND DISTRIBUTE A MODIFIED / RECOMIPLED VERSION, YOU MUST OPEN SOURCE YOUR MOD AS WELL
+
+
+
 
 ## Credits / shoutouts
 
-- [ninjamuffin99 (me!)](https://twitter.com/ninja_muffin99) - Programmer
+
+## FNF Creators
+- [ninjamuffin99](https://twitter.com/ninja_muffin99) - Programmer
 - [PhantomArcade3K](https://twitter.com/phantomarcade3k) and [Evilsk8r](https://twitter.com/evilsk8r) - Art
 - [Kawaisprite](https://twitter.com/kawaisprite) - Musician
+
+
+## Adrikikico Enfube Creators
+Adrikikicp
+
+
+## Credits end
 
 This game was made with love to Newgrounds and it's community. Extra love to Tom Fulp.
 
@@ -47,6 +58,9 @@ You'll also need to install a couple things that involve Gits. To do this, you n
 2. Follow instructions to install the application properly.
 3. Run `haxelib git polymod https://github.com/larsiusprime/polymod.git` to install Polymod.
 4. Run `haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc` to install Discord RPC.
+4. Run `haxelib git discord_rpc https://github.com/Adrikikicp/HaxeLonger` to install Haxe Longer.
+
+
 
 You should have everything ready for compiling the game! Follow the guide below to continue!
 
@@ -91,8 +105,10 @@ To run it from your desktop (Windows, Mac, Linux) it can be a bit more involved.
 * Windows 10 SDK (10.0.16299.0)
 * MSVC v141 - VS 2017 C++ x64/x86 build tools
 * MSVC v140 - VS 2015 C++ build tools (v14.00)
+* AddressSanitizier for C++
+* Windows Universal Platform Developing (important)
 
-This will install about 22GB of crap, but once that is done you can open up a command line in the project's directory and run `lime test windows -debug`. Once that command finishes (it takes forever even on a higher end PC), you can run FNF from the .exe file under export\release\windows\bin
+This will install about 32GB of crap, but once that is done you can open up a command line in the project's directory and run `lime test windows -debug`. Once that command finishes (it takes forever even on a higher end PC), you can run FNF from the .exe file under export\release\windows\bin
 As for Mac, 'lime test mac -debug' should work, if not the internet surely has a guide on how to compile Haxe stuff for Mac.
 
 ### Additional guides
