@@ -19,7 +19,7 @@ Support the project on the itch.io page: https://ninja-muffin24.itch.io/funkin
 - [Kawaisprite](https://twitter.com/kawaisprite) - Musician
 
 
-## Adrikikico Enfube Creators
+## Adrikikicp Engine Creators
 Adrikikicp
 
 
