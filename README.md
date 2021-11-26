@@ -58,7 +58,7 @@ You'll also need to install a couple things that involve Gits. To do this, you n
 2. Follow instructions to install the application properly.
 3. Run `haxelib git polymod https://github.com/larsiusprime/polymod.git` to install Polymod.
 4. Run `haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc` to install Discord RPC.
-4. Run `haxelib git discord_rpc https://github.com/Adrikikicp/HaxeLonger` to install Haxe Longer.
+4. Run `haxelib git HaxeLonger https://github.com/Adrikikicp/HaxeLonger.git` to install Haxe Longer.
 
 
 
@@ -108,7 +108,7 @@ To run it from your desktop (Windows, Mac, Linux) it can be a bit more involved.
 * AddressSanitizier for C++
 * Windows Universal Platform Developing (important)
 
-This will install about 32GB of crap, but once that is done you can open up a command line in the project's directory and run `lime test windows -debug`. Once that command finishes (it takes forever even on a higher end PC), you can run FNF from the .exe file under export\release\windows\bin
+This will install about 41GB of crap, but once that is done you can open up a command line in the project's directory and run `lime test windows -debug`. Once that command finishes (it takes forever even on a higher end PC), you can run FNF from the .exe file under export\release\windows\bin
 As for Mac, 'lime test mac -debug' should work, if not the internet surely has a guide on how to compile Haxe stuff for Mac.
 
 ### Additional guides
