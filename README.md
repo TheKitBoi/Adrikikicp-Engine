@@ -60,6 +60,9 @@ You'll also need to install a couple things that involve Gits. To do this, you n
 4. Run `haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc` to install Discord RPC.
 5. Run `haxelib git HaxeLonger https://github.com/Adrikikicp/HaxeLonger.git` to install Haxe Longer.
 6. Run `haxelib git events https://github.com/Adrikikicp/events.git` to install Modcharts & Events Library.
+7. Run `haxelib git extension-webm https://github.com/GrowtopiaFli/extension-webm.git` to install Extension Webm
+8. Run `lime rebuild extension-webm windows` to Rebuild Extension Webm (optional)
+9. Run `lime rebuild events windows` to Rebuild Modcharts & Events library
 
 
 
