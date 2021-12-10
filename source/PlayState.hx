@@ -1331,6 +1331,33 @@ class PlayState extends MusicBeatState
 	private var paused:Bool = false;
 	var startedCountdown:Bool = false;
 	var canPause:Bool = true;
+					
+					
+				public	function crearMisses(){
+						
+					#if desktop
+						if(health => 49){
+							
+							misses++;
+				
+						}
+					
+					if(health => 99){
+							
+							misses++;
+				
+						}
+					
+					
+				}
+					
+					
+					
+					
+					
+					
+					
+					
 
 	override public function update(elapsed:Float)
 	{
@@ -1364,7 +1391,7 @@ class PlayState extends MusicBeatState
 
 		super.update(elapsed);
 
-		scoreTxt.text = "Score:" + songScore;
+		scoreTxt.text = "Score:" + songScore + "Misses:" + misses;
 
 		if (FlxG.keys.justPressed.ENTER && startedCountdown && canPause)
 		{
@@ -1798,7 +1825,8 @@ class PlayState extends MusicBeatState
 
 		var rating:FlxSprite = new FlxSprite();
 		var score:Int = 350;
-
+		var misses:Int = 0;
+		
 		var daRating:String = "sick";
 
 		if (noteDiff > Conductor.safeZoneOffset * 0.9)
