@@ -20,7 +20,7 @@ Support the project on the itch.io page: https://ninja-muffin24.itch.io/funkin
 
 
 ## Adrikikicp Engine Creators
-Adrikikicp
+[Adrikikicp](https://twitter.com/IvonPujadas)
 
 
 ## Credits end
@@ -58,7 +58,8 @@ You'll also need to install a couple things that involve Gits. To do this, you n
 2. Follow instructions to install the application properly.
 3. Run `haxelib git polymod https://github.com/larsiusprime/polymod.git` to install Polymod.
 4. Run `haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc` to install Discord RPC.
-4. Run `haxelib git HaxeLonger https://github.com/Adrikikicp/HaxeLonger.git` to install Haxe Longer.
+5. Run `haxelib git HaxeLonger https://github.com/Adrikikicp/HaxeLonger.git` to install Haxe Longer.
+6. Run `haxelib git events https://github.com/Adrikikicp/events.git` to install Modcharts & Events Library.
 
 
 
