@@ -42,7 +42,7 @@ jobs:
           haxelib git polymod https://github.com/MasterEric/polymod.git
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
           haxelib git events https://github.com/Adrikikicp/events.git
-          lime rebuild events windows
+          haxelib run lime rebuild events windows
           haxelib git HaxeLonger https://github.com/Adrikikicp/HaxeLonger.git
           haxelib git extension-webm https://github.com/GrowtopiaFli/extension-webm.git
           haxelib run lime rebuild extension-webm windows
