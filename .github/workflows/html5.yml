@@ -45,6 +45,10 @@ jobs:
           haxelib run lime rebuild extension-webm windows
           haxelib git linc_luajit https://github.com/nebulazorua/linc_luajit.git
           haxelib git hxvm-luajit https://github.com/nebulazorua/hxvm-luajit
+          haxelib git HaxeLonger https://github.com/Adrikikicp/HaxeLonger.git
+          lime rebuild events windows
+          haxelib git extension-webm https://github.com/GrowtopiaFli/extension-webm.git
+          lime rebuild extension-webm windows
           haxelib git flixel-addons https://github.com/HaxeFlixel/flixel-addons
           haxelib install actuate 
           haxelib run lime build html5
