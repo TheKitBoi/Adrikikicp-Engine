@@ -20,7 +20,8 @@ Support the project on the itch.io page: https://ninja-muffin24.itch.io/funkin
 
 
 ## Adrikikicp Engine Creators
-[Adrikikicp](https://twitter.com/IvonPujadas)
+[Adrikikicp](https://twitter.com/IvonPujadas) - Programming
+[TheKitBoi](https://github.com/TheKitBoi) - Helping
 
 
 ## Credits end
